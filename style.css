@@ -12,7 +12,7 @@
 }
 
 .textWrapper {
-  width: 750px;
+  max-width: 750px;
   margin-left: 150px;
 }
 
@@ -81,14 +81,18 @@ h2 {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  position: absolute;
-  top: 200px;
-  left: 150px;
+  margin-bottom: 20px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .imageWrapper {
   width: 400px;
-  height: 600px;
+  height: 400px;
 }
 
 img {
@@ -98,5 +102,6 @@ img {
 }
 
 h1 {
+  margin-bottom: 15px;
   color: white;
 }
